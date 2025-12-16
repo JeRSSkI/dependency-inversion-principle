@@ -1,1 +1,10 @@
-# dependency-inversion-principle
+# Dependency Inversion Principle (DIP)
+
+## Опис
+Принцип інверсії залежностей означає, що модулі високого рівня
+не повинні залежати від конкретних реалізацій, а від абстракцій.
+
+## Приклад
+- Database — абстракція
+- MySQLDatabase, MongoDatabase — реалізації
+- UserService працює з будь-якою базою даних без змін коду
